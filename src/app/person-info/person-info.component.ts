@@ -19,7 +19,6 @@ export class PersonInfoComponent
   @Input() personAttribute: Person;
 
   constructor() {
-    console.log('constructor');
     console.log('person attribute: ' + this.personAttribute);
   }
   ngOnChanges(changes: SimpleChanges): void {
